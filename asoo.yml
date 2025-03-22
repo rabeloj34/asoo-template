@@ -1,8 +1,8 @@
 deploy_info:
   private_submodules:
-    - git@github.com:rabeloj34/asoo-tools.git
-    - git@github.com:rabeloj34/web.git
-    - git@github.com:rabeloj34/server-tools.git
+    - git@github.com:ampsoftwaresl/asoo-tools.git
+    - git@github.com:ampsoftwaresl/server-tools.git
+    - git@github.com:ampsoftwaresl/web.git
 
 server_setup:
   update:
@@ -39,7 +39,7 @@ server_setup:
 
 environment_info:
   application: 'odoo'
-  application_version: '16.0'
+  application_version: '17.0'
   application_service: 'web'
   application_container_user: '0'
   git_submodule_path: 'addons'
